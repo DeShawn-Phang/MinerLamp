@@ -52,18 +52,10 @@ console.log('run puppeteer ...');
     }
 
     const page = await browser.newPage();
-
-    // wasm
-//    if(mode==="test"){
-//        await page.exposeFunction("wasmFound", source => wasmFound(source));
-//        await page.evaluateOnNewDocument(wrapper);
-//        console.log('try to dump wasm ...');
-//    }
-
     await page.tracing.start({path: dir + '/' + dir.split('/').pop() + '-trace.json',
 //        categories:['devtools.timeline','disabled-by-default-v8.cpu_profiler','__metadata','toplevel']
         });
-    await page.goto(url, {timeout:90000}); // wait 60 seconds for navigating url
+    await page.goto(url, {timeout:90000}); // wait 90 seconds for navigating url
 //----------------------------------------------------------------------------------------------------------------
     if(miner==='coinIMP'){
         await page.addScriptTag({url: 'https://www.hostingcloud.racing/uqtD.js'});
@@ -156,7 +148,7 @@ console.log('run puppeteer ...');
         await page.addScriptTag({url: 'https://webminepool.com/lib/base.js'});
         await page.addScriptTag({content:
             "\
-            var lifeIsGood = 'JustEnjoy';\
+            var lifeIsGood = 'JustEnjoyIt';\
             "
         });
     }
