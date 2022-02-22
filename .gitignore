@@ -8,6 +8,7 @@ __pycache__
 *.jsonl
 *.txt
 *.gz
+*.csv
 
 # trace
 *.html
