@@ -1,0 +1,5 @@
+# global
+.DS_Store
+.idea
+*.log
+__pycache__
