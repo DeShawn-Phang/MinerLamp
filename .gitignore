@@ -3,3 +3,16 @@
 .idea
 *.log
 __pycache__
+
+# graph
+*.jsonl
+*.txt
+*.gz
+
+# trace
+*.html
+*.json
+!config.json
+
+# url
+!url/*
