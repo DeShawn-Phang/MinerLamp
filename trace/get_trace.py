@@ -26,8 +26,8 @@ def compress_json(json_path):
             new_events.append(te)
         # add timeline events
         elif te['cat'] == 'devtools.timeline':
-            if 'urllist' in te['args'].keys():
-                if 'stackTrace' in te['args']['urllist'].keys():
+            if 'data' in te['args'].keys():
+                if 'stackTrace' in te['args']['data'].keys():
                     new_events.append(te)
         # add task events
         elif te['name'] == 'ThreadControllerImpl::RunTask':
@@ -35,7 +35,7 @@ def compress_json(json_path):
                 new_events.append(te)
         # add stack events
         elif te['name'] == 'ProfileChunk':
-            if 'cpuProfile' in te['args']['urllist'].keys():
+            if 'cpuProfile' in te['args']['data'].keys():
                 new_events.append(te)
     with open(json_path, 'w') as f:
         json.dump({'traceEvents': new_events}, f)
