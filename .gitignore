@@ -17,3 +17,6 @@ __pycache__
 
 # url
 !url/*
+
+# filter
+!mining_keywords.json

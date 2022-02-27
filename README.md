@@ -32,3 +32,10 @@ example: python get_graph.py -m test -d ../trace/alexa0_5 -o alexa0_5
 usage: predict.py trained_model/RGIN_MODEL.hdf5 INPUT_DIR
 example: python predict.py trained_model/RGIN_GraphBinaryClassification__2022-02-15_18-07-18_best.hdf5 ../../../graph/alexa0_5/
 ```
+
+### filter
+
+```shell script
+python extract.py -i sok -o sok
+python do_filter.py -i urllist-sok -o sok
+```
