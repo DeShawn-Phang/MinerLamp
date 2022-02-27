@@ -1,0 +1,58 @@
+{
+  "bmst": [
+    "*://*.bmst.pw/*"
+  ],
+  "jsecoin": [
+    "*://load.jsecoin.com/*"
+  ],
+  "coinhive": [
+    "*://*.coin-hive.com/proxy*",
+    "*://*.coinhive.com/proxy*",
+    "*://*/*coinhive.min.js*",
+    "*://coinhive.com/lib*"
+  ],
+  "coinimp": [
+    "*://*.hostingcloud.racing/*"
+  ],
+  "cryptoloot": [
+    "*://*.reauthenticator.com/*",
+    "*://*/*lib/crypta.js*",
+    "*://*/*lib/crlt.js*"
+  ],
+  "webminepool": [
+    "*://*.webminepool.com/lib/base.js"
+  ],
+  "deepMiner": [
+    "*://*/*deepMiner.js",
+    "*://*/*deepMiner.min.js"
+  ],
+  "perfekt": [
+    "*://*/*?perfekt=wss://*"
+  ],
+  "minero": [
+    "*://*.minero.cc/*"
+  ],
+  "monerominer": [
+    "*://*/*plugins/wp-monero-miner-pro*"
+  ],
+  "webmr": [
+    "*://*/*webmr.js*"
+  ],
+  "webxmr": [
+    "*://*/*webxmr.js*"
+  ],
+  "other": [
+    "*://*/*cryptonight.wasm",
+    "*://*/*miner.js*",
+    "*://*/*bitrix/js/main/core/core_loader.js*"
+  ],
+  "browsermine": [
+    "*://*.browsermine.com/*"
+  ],
+  "coinhave": [
+    "*://*.minescripts.info/*"
+  ],
+  "webmine": [
+    "*://*.webmine.pro/*"
+  ]
+}
