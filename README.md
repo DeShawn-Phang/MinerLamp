@@ -2,14 +2,17 @@
 
 ## Directory
 
-### url
+### Url
 
-|  file   | source  |
-|  ----  | ----  |
-| coinblocklist.txt  | https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt |
-| sok_known.csv  | https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/known_service_provider_domain_list.csv |
-| sok_unknown.csv | https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/unknown_service_provider_domain_list.csv |
-| top-1m.csv | http://s3.amazonaws.com/alexa-static/top-1m.csv.zip |
+| DataSet |  file   | source  |
+|  ----  |  ----  | ----  |
+| Dataset1 | coinblocklist.txt  | https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt |
+| Dataset2 | sok_known.csv  | https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/known_service_provider_domain_list.csv |
+| Dataset2 | sok_unknown.csv | https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/unknown_service_provider_domain_list.csv |
+| Dataset3 | top-1m.csv | http://s3.amazonaws.com/alexa-static/top-1m.csv.zip |
+
+### Raw data
+to do：Raw data download url
 
 ### trace
 
