@@ -12,7 +12,7 @@
 | Dataset3 | top-1m.csv | http://s3.amazonaws.com/alexa-static/top-1m.csv.zip |
 
 ### Raw data
-to do：Raw data download url
+Dataset1 and Dataset2 can download from https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing.
 
 ### trace
 
