@@ -1,6 +1,11 @@
 <div align="center">
  <img src="res/WebMinerLamp.jpg">
 </div>
+<p align="center">
+  <i>One tool for detecting in-browser Cryptojacking.</i>
+</p>
+
+
 # MinerLamp
 
 ## Directory
