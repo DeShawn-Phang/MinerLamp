@@ -1,3 +1,6 @@
+<div align="center">
+ <img src="res/WebMinerLamp.jpg">
+</div>
 # MinerLamp
 
 ## Directory
