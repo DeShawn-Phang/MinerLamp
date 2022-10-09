@@ -21,15 +21,15 @@
 
 ### Raw data
 Dataset1 and Dataset2 can download from:
-```shell script
+```
 https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing
 ```
 Dataset 3 is very large, we split dataset3 into 4 compressed packages, you can find the first two compressed files of Dataset3 in:
-```shell script
+``` 
 https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing
 ```
 and the last two files of Dataset3 in:
-```shell script
+```
 https://drive.google.com/drive/folders/10z3wdew4ls776NOWf2Lp_wWBK6qqWEMA?usp=sharing
 ```
 
@@ -55,9 +55,3 @@ usage: predict.py trained_model/RGIN_MODEL.hdf5 INPUT_DIR
 example: python predict.py trained_model/RGIN_GraphBinaryClassification__2022-02-15_18-07-18_best.hdf5 ../../../graph/alexa0_5/
 ```
 
-### filter
-
-```shell script
-python extract.py -i sok -o sok
-python do_filter.py -i urllist-sok -o sok
-```
