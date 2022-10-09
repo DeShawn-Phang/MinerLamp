@@ -24,11 +24,11 @@ Dataset1 and Dataset2 can download from:
 ```shell script
 https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing
 ```
-Dataset 3 is very large, we split dataset3 into 4 compressed packages, you can find the first two compressed files of Dataset3 in
+Dataset 3 is very large, we split dataset3 into 4 compressed packages, you can find the first two compressed files of Dataset3 in:
 ```shell script
 https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing
 ```
-and the last two files of Dataset3 in 
+and the last two files of Dataset3 in:
 ```shell script
 https://drive.google.com/drive/folders/10z3wdew4ls776NOWf2Lp_wWBK6qqWEMA?usp=sharing
 ```
