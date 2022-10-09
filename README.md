@@ -8,16 +8,7 @@
 
 # MinerLamp
 
-## Directory
-
-### Url
-
-| DataSet |  file   | source  |
-|  ----  |  ----  | ----  |
-| Dataset1 | coinblocklist.txt  | https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt |
-| Dataset2 | sok_known.csv  | https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/known_service_provider_domain_list.csv |
-| Dataset2 | sok_unknown.csv | https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/unknown_service_provider_domain_list.csv |
-| Dataset3 | top-1m.csv | http://s3.amazonaws.com/alexa-static/top-1m.csv.zip |
+## Data Set
 
 ### Raw data
 Dataset1 and Dataset2 can download from:
@@ -32,6 +23,19 @@ and the last two files of Dataset3 in:
 ```
 https://drive.google.com/drive/folders/10z3wdew4ls776NOWf2Lp_wWBK6qqWEMA?usp=sharing
 ```
+
+
+## Directory
+
+### Url
+
+| DataSet |  file   | source  |
+|  ----  |  ----  | ----  |
+| Dataset1 | coinblocklist.txt  | https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt |
+| Dataset2 | sok_known.csv  | https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/known_service_provider_domain_list.csv |
+| Dataset2 | sok_unknown.csv | https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/unknown_service_provider_domain_list.csv |
+| Dataset3 | top-1m.csv | http://s3.amazonaws.com/alexa-static/top-1m.csv.zip |
+
 
 ### trace
 
