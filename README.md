@@ -15,7 +15,7 @@ Dataset1 and Dataset2 can download from:
 ```
 https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing
 ```
-Dataset 3 is very large, we split dataset3 into 4 compressed packages, you can find the first two compressed files of Dataset3 in:
+Dataset3 is very large, we split dataset3 into 4 compressed packages, you can find the first two compressed files of Dataset3 in:
 ``` 
 https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing
 ```
