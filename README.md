@@ -10,19 +10,22 @@
 
 ## Data Set
 
-### Trace data
-Dataset1 and Dataset2 can download from:
-```
-https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing
-```
-Dataset3 is very large, we split dataset3 into 4 compressed packages, you can find the first two compressed files of Dataset3 in:
-``` 
-https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing
-```
-and the last two files of Dataset3 in:
-```
-https://drive.google.com/drive/folders/10z3wdew4ls776NOWf2Lp_wWBK6qqWEMA?usp=sharing
-```
+- Dataset 1 contains 1310 samples from CoinBlockerLists.
+- Dataset 2 contains 4748 samples from Tekiner et al.
+- Dataset 3 contains 15899 samples from the top 30,000 to 50,000 in Alexa-Top-1M.
+
+We collect data before January 15, 2022 as dataset.
+
+### Test data
+
+Trace data can be downloaded from the links below.
+
+| DataSet | Link  |
+|  ----  | ----  |
+| Dataset 1 |  [Download](https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing) |
+| Dataset 2 |  [Download](https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing) |
+| Dataset 3 Part1 |  [Download](https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing) |
+| Dataset 3 Part2 |  [Download](https://drive.google.com/drive/folders/10z3wdew4ls776NOWf2Lp_wWBK6qqWEMA?usp=sharing) |
 
 
 ## Directory
@@ -31,10 +34,10 @@ https://drive.google.com/drive/folders/10z3wdew4ls776NOWf2Lp_wWBK6qqWEMA?usp=sha
 
 | DataSet |  file   | source  |
 |  ----  |  ----  | ----  |
-| Dataset1 | coinblocklist.txt  | https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt |
-| Dataset2 | sok_known.csv  | https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/known_service_provider_domain_list.csv |
-| Dataset2 | sok_unknown.csv | https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/unknown_service_provider_domain_list.csv |
-| Dataset3 | top-1m.csv | http://s3.amazonaws.com/alexa-static/top-1m.csv.zip |
+| Dataset 1 | coinblocklist.txt  | [Download](https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt) |
+| Dataset 2 | sok_known.csv  | [Download](https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/known_service_provider_domain_list.csv) |
+| Dataset 2 | sok_unknown.csv | [Download](https://raw.githubusercontent.com/sokcryptojacking/SoK/main/PublicWWW%20Dataset/unknown_service_provider_domain_list.csv) |
+| Dataset 3 | top-1m.csv | [Download](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip) |
 
 
 ### trace
