@@ -22,15 +22,17 @@ Trace data can be downloaded from the links below.
 
 | DataSet | Link  |
 |  ----  | ----  |
-| Dataset 1 |  [Download](https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing) |
-| Dataset 2 |  [Download](https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing) |
-| Dataset 3 Part1 |  [Download](https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing) |
-| Dataset 3 Part2 |  [Download](https://drive.google.com/drive/folders/10z3wdew4ls776NOWf2Lp_wWBK6qqWEMA?usp=sharing) |
+| Dataset 1 (test-coinblocklist.zip)|  [Download](https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing) |
+| Dataset 2 (test-sok.zip)|  [Download](https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing) |
+| Dataset 3 Part1 (alexa.zip, alexa.z01) |  [Download](https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing) |
+| Dataset 3 Part2 (alexa.z02, alexa.z03) |  [Download](https://drive.google.com/drive/folders/10z3wdew4ls776NOWf2Lp_wWBK6qqWEMA?usp=sharing) |
 
+**Note:** Dataset 3 contains alexa.zip, alexa.z01, alexa.z02, and alexa.z03 four files, you have to download them all before unzipping.
 
 ## Directory
 
 ### url
+This folder contains the url of the dataset website.
 
 | DataSet |  file   | source  |
 |  ----  |  ----  | ----  |
@@ -41,6 +43,7 @@ Trace data can be downloaded from the links below.
 
 
 ### trace
+This folder contains a tool to get website trace.
 
 ```shell script
 usage: get_trace.py [-h] [-m MODE] -l CSV/TXT -o DIR [-b NUMBER] [-e NUMBER]
@@ -49,6 +52,7 @@ example: python get_trace.py -m test -l ../url/top-1m.csv -o alexa0_5 -b 0 -e 5 
 ```
 
 ### graph
+This folder contains a tool that converts website trace to the graph.
 
 ```shell script
 usage: get_graph.py [-h] [-m {train,test}] -d DIR -o DIRNAME
@@ -56,6 +60,7 @@ example: python get_graph.py -m test -d ../trace/alexa0_5 -o alexa0_5
 ```
 
 ### classifier
+This folder contains MinerLamp's classifiers.
 
 ```shell script
 usage: predict.py trained_model/RGIN_MODEL.hdf5 INPUT_DIR
