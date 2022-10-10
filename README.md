@@ -14,7 +14,7 @@
 - Dataset 2 contains 4748 samples from Tekiner et al.
 - Dataset 3 contains 15899 samples from the top 30,000 to 50,000 in Alexa-Top-1M.
 
-We collect data before January 15, 2022 as dataset.
+We collect data before January 15, 2022, as datasets.
 
 ### Test data
 
