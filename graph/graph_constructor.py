@@ -82,8 +82,9 @@ class GraphConstructor():
                     func_te_temp = te
                     continue
                 if te['ph'] == 'E':
-                    func_te_temp['dur'] = te['ts'] - func_te_temp['ts']
-                    tes.append(func_te_temp)
+                    if func_te_temp is not None:
+                        func_te_temp['dur'] = te['ts'] - func_te_temp['ts']
+                        tes.append(func_te_temp)
                 else:
                     tes.append(te)
             # add timeline events
