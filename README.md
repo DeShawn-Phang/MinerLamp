@@ -27,7 +27,7 @@ Trace data can be downloaded from the links below.
 | Dataset 3 Part1 (alexa.zip, alexa.z01) |  [Download](https://drive.google.com/drive/folders/1BU3o1ZJOv2CQZDxFkRh9wwztaSHePxBT?usp=sharing) |
 | Dataset 3 Part2 (alexa.z02, alexa.z03) |  [Download](https://drive.google.com/drive/folders/10z3wdew4ls776NOWf2Lp_wWBK6qqWEMA?usp=sharing) |
 
-**Note:** Dataset 3 contains alexa.zip, alexa.z01, alexa.z02, and alexa.z03 four files, you have to download them all before unzipping.
+**Note:** Dataset 3 (alexa.zip, alexa.z01, alexa.z02, and alexa.z03) contains four files, you have to download them all before unzipping.
 
 ## Directory
 
