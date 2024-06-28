@@ -110,8 +110,17 @@ This folder stores the training data for the model.
 ### classifier
 This folder contains MinerLamp's classifiers.
 
+The file `classifier/tf2_gnn/cli/predict.py` is used for prediction.
+
 ```shell script
 usage: predict.py trained_model/RGIN_MODEL.hdf5 INPUT_DIR
 example: python predict.py trained_model/RGIN_GraphBinaryClassification__2022-02-15_18-07-18_best.hdf5 ../../../graph/alexa0_5/
+```
+
+The file `classifier/tf2_gnn/cli/train.py` is used to train the model.
+
+```shell script
+usage: train.py --save-dir [SAVE_DIR] [ModelType] [Task] --max-epochs [Num] [Data_Path] 
+example: python train.py --save-dir ./trained_model RGIN GraphBinaryClassification --max-epochs 50 ../../../training_data
 ```
 
