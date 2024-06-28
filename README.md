@@ -31,39 +31,40 @@ Trace data can be downloaded from the links below.
 
 ### Obfuscated data sets
 
-| Sample          | JS or Wasm | URL                                                                  | 
-|-----------------|------------|----------------------------------------------------------------------|
-| 2048            | Wasm       | https://github.com/inishchith/2048.wasm/tree/main                    |
-| Breakout        | Wasm       | https://github.com/vtan/breakout-wasm/tree/main                      |
-| Circle Collide  | Wasm       | https://github.com/TurkeyMcMac/circle-collide                        |
-| Dave            | Wasm       | https://github.com/shlomnissan/dave-wasm                             |
-| Interplanetary  | Wasm       | https://github.com/s-macke/Interplanetary-Postal-Service/tree/master |
-| Asteroids       | Wasm       | https://github.com/robertaboukhalil/wasm-asteroids                   |
-| Snake           | Wasm       | https://github.com/tsoding/snake-c-wasm                              |
-| Tetris          | Wasm       | https://github.com/olzhasar/sdl-tetris                               |
-| OpenGL          | Wasm       | https://github.com/timhutton/opengl-canvas-wasm                      |
-| BF Interpreter  | Wasm       | https://github.com/pablojorge/brainfuck                              |
-| Conway Life     | Wasm       | https://github.com/iximiuz/golife.c                                  |
-| Markdown Parser | Wasm       | https://github.com/rsms/markdown-wasm/tree/master                    |
-| Garliccoin      | Wasm       | https://github.com/AnanthVivekanand/garlicoinhash-wasm               |
-| xmr-wasm        | Wasm       | https://github.com/jtgrassie/xmr-wasm                                |
-| deepMiner       | Wasm       | https://github.com/deepwn/deepMiner                                  |
-| webminerpool    | Wasm       | https://github.com/notgiven688/webminerpool                          |
-| 2048            | JS         | https://github.com/kubowania/2048                                    |
-| Tetris          | JS         | https://github.com/melcor76/js-tetris                                |
-| Breakout        | JS         | https://github.com/city41/breakouts                                  |
-| Fruit Ninja     | JS         | https://github.com/yeesunday/WebFruitNinja                           |
-| Astray          | JS         | https://github.com/wwwtyro/Astray                                    |
-| Markdown Parser | JS         | https://github.com/LeoYuan/markdown-editor                           |
-| BF Interpreter  | JS         | https://github.com/kcal2845/bf_js                                    |
-| Conway Life     | JS         | https://github.com/cwilso/conway                                     |
-| Calculator      | JS         | https://github.com/LucioFex/Simple-Web-Calculator                    |
-| CyberChef       | JS         | https://github.com/gchq/CyberChef                                    |
-| Crypto-Webminer | JS         | https://github.com/PiTi2k5/Crypto-Webminer                           |
-| WebMinePool     | JS         | https://www.webminepool.com/                                         |
-| Crypto-Loot     | JS         | https://crypto-loot.org/                                             |
-| Monero Webminer | JS         | https://github.com/NajmAjmal/monero-webminer/tree/main               |
-| BrowserMine     | JS         | https://cp.browsermine.com/                                          |
+
+| Sample          | JS or Wasm | Lable | URL                                                                  | 
+|-----------------|------------|-------|----------------------------------------------------------------------|
+| 2048            | Wasm       | 0     | https://github.com/inishchith/2048.wasm/tree/main                    |
+| Breakout        | Wasm       | 0     | https://github.com/vtan/breakout-wasm/tree/main                      |
+| Circle Collide  | Wasm       | 0     | https://github.com/TurkeyMcMac/circle-collide                        |
+| Dave            | Wasm       | 0     | https://github.com/shlomnissan/dave-wasm                             |
+| Interplanetary  | Wasm       | 0     | https://github.com/s-macke/Interplanetary-Postal-Service/tree/master |
+| Asteroids       | Wasm       | 0     | https://github.com/robertaboukhalil/wasm-asteroids                   |
+| Snake           | Wasm       | 0     | https://github.com/tsoding/snake-c-wasm                              |
+| Tetris          | Wasm       | 0     | https://github.com/olzhasar/sdl-tetris                               |
+| OpenGL          | Wasm       | 0     | https://github.com/timhutton/opengl-canvas-wasm                      |
+| BF Interpreter  | Wasm       | 0     | https://github.com/pablojorge/brainfuck                              |
+| Conway Life     | Wasm       | 0     | https://github.com/iximiuz/golife.c                                  |
+| Markdown Parser | Wasm       | 0     | https://github.com/rsms/markdown-wasm/tree/master                    |
+| Garliccoin      | Wasm       | 1     | https://github.com/AnanthVivekanand/garlicoinhash-wasm               |
+| xmr-wasm        | Wasm       | 1     | https://github.com/jtgrassie/xmr-wasm                                |
+| deepMiner       | Wasm       | 1     | https://github.com/deepwn/deepMiner                                  |
+| webminerpool    | Wasm       | 1     | https://github.com/notgiven688/webminerpool                          |
+| 2048            | JS         | 0     | https://github.com/kubowania/2048                                    |
+| Tetris          | JS         | 0     | https://github.com/melcor76/js-tetris                                |
+| Breakout        | JS         | 0     | https://github.com/city41/breakouts                                  |
+| Fruit Ninja     | JS         | 0     | https://github.com/yeesunday/WebFruitNinja                           |
+| Astray          | JS         | 0     | https://github.com/wwwtyro/Astray                                    |
+| Markdown Parser | JS         | 0     | https://github.com/LeoYuan/markdown-editor                           |
+| BF Interpreter  | JS         | 0     | https://github.com/kcal2845/bf_js                                    |
+| Conway Life     | JS         | 0     | https://github.com/cwilso/conway                                     |
+| Calculator      | JS         | 0     | https://github.com/LucioFex/Simple-Web-Calculator                    |
+| CyberChef       | JS         | 0     | https://github.com/gchq/CyberChef                                    |
+| Crypto-Webminer | JS         | 1     | https://github.com/PiTi2k5/Crypto-Webminer                           |
+| WebMinePool     | JS         | 1     | https://www.webminepool.com/                                         |
+| Crypto-Loot     | JS         | 1     | https://crypto-loot.org/                                             |
+| Monero Webminer | JS         | 1     | https://github.com/NajmAjmal/monero-webminer/tree/main               |
+| BrowserMine     | JS         | 1     | https://cp.browsermine.com/                                          |
 
 
 ## Directory
