@@ -69,6 +69,10 @@ Trace data can be downloaded from the links below.
 
 ## Directory
 
+### data_lable
+
+This folder stores the labels for each dataset. The `all_positive.csv` file stores all positive samples.
+
 ### url
 This folder contains the url of the dataset website.
 
@@ -96,6 +100,12 @@ This folder contains a tool that converts website trace to the graph.
 usage: get_graph.py [-h] [-m {train,test}] -d DIR -o DIRNAME
 example: python get_graph.py -m test -d ../trace/alexa0_5 -o alexa0_5
 ```
+
+### training_data
+This folder stores the training data for the model.
+
+- `train.jsonl.gz` file is the training set.
+- `valid.jsonl.gz` file is the validation set.
 
 ### classifier
 This folder contains MinerLamp's classifiers.
