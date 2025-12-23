@@ -1,12 +1,12 @@
 <div align="center">
- <img src="res/WebMinerLamp.jpg">
+ <img src="res/GRABIN.png" width="40%">
 </div>
 <p align="center">
   <i>One tool for detecting in-browser Cryptojacking.</i>
 </p>
 
 
-# MinerLamp
+# GRABIN
 
 ## Data Set
 
@@ -108,7 +108,7 @@ This folder stores the training data for the model.
 - `valid.jsonl.gz` file is the validation set.
 
 ### classifier
-This folder contains MinerLamp's classifiers.
+This folder contains GRABIN's classifiers.
 
 The file `classifier/tf2_gnn/cli/predict.py` is used for prediction.
 
